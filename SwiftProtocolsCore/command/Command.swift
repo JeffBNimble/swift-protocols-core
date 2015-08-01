@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol Command {
-    func execute<T>() -> T
+    func execute<T>() -> T?
 }

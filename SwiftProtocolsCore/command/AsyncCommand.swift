@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol AsyncCommand {
-    func execute<T, E:ErrorType>(result: (T?) -> (), error: (E?) -> ())
+    func execute<T, Error:ErrorType>(result: (T?) -> (), error: (Error?) -> ())
 }
