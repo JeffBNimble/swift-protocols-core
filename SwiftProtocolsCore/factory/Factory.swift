@@ -9,5 +9,5 @@
 import Foundation
 
 public protocol Factory {
-    func create<T, U>(with: U?) -> T
+    func create<T>(with: AnyObject?) -> T
 }
