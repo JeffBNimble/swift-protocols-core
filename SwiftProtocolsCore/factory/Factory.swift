@@ -9,5 +9,7 @@
 import Foundation
 
 public protocol Factory {
-    func create<T>(with: AnyObject?) -> T
+    typealias T
+    typealias CreateWith
+    func create(with: CreateWith?) -> T
 }

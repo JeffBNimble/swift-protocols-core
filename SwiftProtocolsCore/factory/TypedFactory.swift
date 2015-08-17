@@ -9,5 +9,6 @@
 import Foundation
 
 public protocol TypedFactory {
-    func create<T>(type: NSObject.Type) -> T
+    typealias T
+    func create(type: NSObject.Type) -> T
 }

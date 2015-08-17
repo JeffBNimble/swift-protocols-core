@@ -9,5 +9,6 @@
 import Foundation
 
 public protocol Command {
-    func execute<T>() -> T?
+    typealias T
+    func execute() -> T
 }
