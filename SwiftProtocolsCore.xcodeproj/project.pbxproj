@@ -15,6 +15,7 @@
 		A52E80B51B6C425A00DE54E7 /* AsyncCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E80B41B6C425A00DE54E7 /* AsyncCommand.swift */; };
 		A52E80B71B6C43A900DE54E7 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E80B61B6C43A900DE54E7 /* Factory.swift */; };
 		A52E80B91B6C446B00DE54E7 /* TypedFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52E80B81B6C446B00DE54E7 /* TypedFactory.swift */; };
+		A59DE1641B8405DA004EF8DD /* CoreError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A59DE1631B8405DA004EF8DD /* CoreError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		A52E80B41B6C425A00DE54E7 /* AsyncCommand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncCommand.swift; sourceTree = "<group>"; };
 		A52E80B61B6C43A900DE54E7 /* Factory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		A52E80B81B6C446B00DE54E7 /* TypedFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypedFactory.swift; sourceTree = "<group>"; };
+		A59DE1631B8405DA004EF8DD /* CoreError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				A52E80AB1B6C3F4C00DE54E7 /* command */,
+				A59DE1621B84053C004EF8DD /* error */,
 				A52E80AC1B6C3F4C00DE54E7 /* factory */,
 				A52E80AD1B6C3F4C00DE54E7 /* Supporting Files */,
 			);
@@ -121,6 +124,14 @@
 				A52E80AF1B6C3F4C00DE54E7 /* SwiftProtocolsCore.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A59DE1621B84053C004EF8DD /* error */ = {
+			isa = PBXGroup;
+			children = (
+				A59DE1631B8405DA004EF8DD /* CoreError.swift */,
+			);
+			path = error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				A52E80B51B6C425A00DE54E7 /* AsyncCommand.swift in Sources */,
 				A52E80B31B6C3FBC00DE54E7 /* Command.swift in Sources */,
+				A59DE1641B8405DA004EF8DD /* CoreError.swift in Sources */,
 				A52E80B71B6C43A900DE54E7 /* Factory.swift in Sources */,
 				A52E80B91B6C446B00DE54E7 /* TypedFactory.swift in Sources */,
 			);

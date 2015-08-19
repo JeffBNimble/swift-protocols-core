@@ -11,5 +11,5 @@ import Foundation
 public protocol Factory {
     typealias T
     typealias CreateWith
-    func create(with: CreateWith?) -> T
+    func create(with: CreateWith?) throws -> T
 }

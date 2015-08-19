@@ -10,5 +10,5 @@ import Foundation
 
 public protocol TypedFactory {
     typealias T
-    func create(type: NSObject.Type) -> T
+    func create(type: NSObject.Type) throws -> T
 }

@@ -10,5 +10,5 @@ import Foundation
 
 public protocol Command {
     typealias T
-    func execute() -> T
+    func execute() throws -> T
 }

@@ -58,3 +58,6 @@ public class TypedStringFactory : TypedFactory {
 
 let typedStringFactory = TypedStringFactory()
 typedStringFactory.create(NSString.self)
+
+let e = CoreError.IllegalStateError
+print("\(e)")
