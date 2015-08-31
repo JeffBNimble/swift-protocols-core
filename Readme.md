@@ -2,7 +2,7 @@
 swift-protocols-core is an iOS framework written in Swift 2. It consists of a small handful of protocols that represent very high level concepts such as Commands and Factories. The concepts defined in this framework can be used in many different applications.
 
 # Protocols
-The following protocols exist within the framwork:
+The following protocols exist within the framework:
 
 ## Command
 [Command](https://github.com/JeffBNimble/swift-protocols-core/blob/master/SwiftProtocolsCore/command/Command.swift) is a simple protocol with an execute function. The protocol uses generics so that implementations can provide specific return types. Commands are intended to be synchronous on the calling thread.
@@ -27,4 +27,4 @@ Use [Carthage](https://github.com/Carthage/Carthage). This framework requires th
 
 Specify the following in your Cartfile to use swift-protocols-core:
 
-```"JeffBNimble/swift-protocols-core" "0.0.6"```
+```github "JeffBNimble/swift-protocols-core" "0.0.7"```
