@@ -9,6 +9,6 @@
 import Foundation
 
 public protocol AsyncCommand {
-    typealias T
+    associatedtype T
     func execute(result: (T?) -> (), error: (ErrorType?) -> ())
 }

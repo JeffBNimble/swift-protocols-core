@@ -9,6 +9,6 @@
 import Foundation
 
 public protocol Command {
-    typealias T
+    associatedtype T
     func execute() throws -> T
 }
